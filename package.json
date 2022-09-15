@@ -1,0 +1,29 @@
+{
+  "name": "time-log-webpack-plugin",
+  "version": "1.0.1",
+  "description": "A time log for Webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jarryxin/time-log-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "time",
+    "log"
+  ],
+  "author": "Jerryxin(https://github.com/Jarryxin)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "semver": "^7.3.7",
+    "single-line-log": "^1.1.2"
+  },
+  "peerDependencies": {
+    "webpack": "^4 || ^5"
+  }
+}
